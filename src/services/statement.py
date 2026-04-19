@@ -132,7 +132,8 @@ def generate_chart(categories: dict[str, float], total_spent: float,
         wedgeprops={"edgecolor": "#1a1a2e", "linewidth": 2}, pctdistance=0.75,
     )
     for t in autotexts:
-        t.set_color("white"); t.set_fontsize(9)
+        t.set_color("white")
+        t.set_fontsize(9)
     ax1.text(0, 0, f"₹{total_spent:,.0f}\nTotal Spent",
              ha="center", va="center", fontsize=11, color="white", fontweight="bold")
     ax1.legend(
