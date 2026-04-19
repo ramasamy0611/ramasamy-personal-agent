@@ -8,8 +8,8 @@
 
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/ramasamymolaiappan/Projects/repo/email-agent/.venv/bin/python3</string>
-        <string>/Users/ramasamymolaiappan/Projects/repo/email-agent/agent.py</string>
+        <string>/Users/ramasamymolaiappan/Projects/repo/ramasamy-personal-agent/.venv/bin/python3</string>
+        <string>/Users/ramasamymolaiappan/Projects/repo/ramasamy-personal-agent/agent.py</string>
     </array>
 
     <!-- Run every day at 8:00 AM -->
@@ -22,10 +22,10 @@
     </dict>
 
     <key>StandardOutPath</key>
-    <string>/Users/ramasamymolaiappan/Projects/repo/email-agent/logs/agent.log</string>
+    <string>/Users/ramasamymolaiappan/Projects/repo/ramasamy-personal-agent/logs/agent.log</string>
 
     <key>StandardErrorPath</key>
-    <string>/Users/ramasamymolaiappan/Projects/repo/email-agent/logs/agent.error.log</string>
+    <string>/Users/ramasamymolaiappan/Projects/repo/ramasamy-personal-agent/logs/agent.error.log</string>
 
     <!-- Run when Mac wakes if the scheduled time was missed -->
     <key>RunAtLoad</key>
