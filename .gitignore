@@ -1,0 +1,23 @@
+# Secrets & OAuth tokens — NEVER commit
+credentials.json
+.token.pickle
+.env
+*.pem
+*.key
+
+# Runtime state
+.last_run
+spending_chart.png
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# macOS
+.DS_Store

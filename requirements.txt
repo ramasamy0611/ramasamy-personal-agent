@@ -1,0 +1,15 @@
+google-auth==2.29.0
+google-auth-oauthlib==1.2.0
+google-api-python-client==2.127.0
+requests==2.31.0
+mcp[cli]==1.6.0
+aiohttp==3.9.5
+pdfplumber==0.11.4
+matplotlib==3.10.8
+pillow==11.1.0
+
+# Dev / SAST
+ruff==0.4.4
+bandit==1.7.8
+semgrep==1.72.0
+pytest==8.2.0
